@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">Win32</Platform>
+    <ProductVersion>1.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{63d2606f-1d55-4506-93bf-8e8cca2979b6}</ProjectGuid>
+    <OutputType>UserMod</OutputType>
+    <ProjectType>UnrealScript</ProjectType>
+    <RootNamespace>NIUI</RootNamespace>
+    <AssemblyName>NIUI</AssemblyName>
+    <Name>NIUI</Name>
+    <TargetGame>UnrealEngine 3 Mod</TargetGame>
+    <UccGamePrefix />
+    <BaseContentPath>..\..\..\Engine\Content</BaseContentPath>
+    <GameContentPath>..\..\..\UDKGame\Content</GameContentPath>
+    <PackageExtensions>.upk;.udk</PackageExtensions>
+    <UccPath>..\..\..\..\UDK-2011-03\Binaries\Win32\UDK.exe</UccPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|Win32' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <UccUseUnpublished>False</UccUseUnpublished>
+    <UseUnpublished>False</UseUnpublished>
+    <ForceWindowedMode>True</ForceWindowedMode>
+    <WindowWidth>1024</WindowWidth>
+    <WindowHeight>768</WindowHeight>
+    <ShowLogWindow>False</ShowLogWindow>
+    <LogToFile>False</LogToFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|Win32' ">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <UccUseUnpublished>False</UccUseUnpublished>
+    <UseUnpublished>False</UseUnpublished>
+    <ForceWindowedMode>False</ForceWindowedMode>
+    <ShowLogWindow>False</ShowLogWindow>
+    <LogToFile>False</LogToFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>True</DebugSymbols>
+    <UccUseUnpublished>True</UccUseUnpublished>
+    <UccMultiPackageBuild>False</UccMultiPackageBuild>
+    <BuildArgs />
+    <UccPackageOrder>Classes;Resources</UccPackageOrder>
+    <OverrideScriptPath>True</OverrideScriptPath>
+    <UccScriptsPath>C:\UDK\UDK-2010-12\UDKGame\Script</UccScriptsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>False</DebugSymbols>
+    <UccUseUnpublished>True</UccUseUnpublished>
+    <UccMultiPackageBuild>False</UccMultiPackageBuild>
+    <BuildArgs />
+    <UccPackageOrder>Classes;Resources</UccPackageOrder>
+    <OverrideScriptPath>False</OverrideScriptPath>
+    <UccScriptsPath />
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="*\Classes\*.uc" />
+    <Compile Include="Classes\NIUI_CallbackInterface.uc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\NIUI_Core.uc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\NIUI_DependencyInterface.uc" />
+    <Compile Include="Classes\NIUI_Main.uc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\NIUI_SamplePawn.uc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\NIUI_SamplePlayerController.uc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\NIUI_SkelControlSingleBone.uc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\NIUI_SkeletalController.uc">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\SimpleCamera.uc" />
+    <Compile Include="Classes\SimpleHUD.uc" />
+    <Content Include="**\*.uci" />
+    <Content Include="Resources\GPL.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Resources\LGPL.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Resources\Template.txt">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Classes" />
+    <Folder Include="Resources" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\PixelMine\UnrealScript.targets" />
+</Project>

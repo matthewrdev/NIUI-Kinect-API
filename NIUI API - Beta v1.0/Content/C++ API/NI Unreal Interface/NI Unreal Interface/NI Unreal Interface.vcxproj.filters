@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files\NIUI Library">
+      <UniqueIdentifier>{4bd4b1cb-cd22-4efc-884a-c731f3f80a8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NIUI Library">
+      <UniqueIdentifier>{34477ebc-597e-4bad-9c50-953395faded3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NIUI Library\Core">
+      <UniqueIdentifier>{b533e9e8-d619-42f7-b41d-cec944d56503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NIUI Library\Core">
+      <UniqueIdentifier>{0157f941-c177-4e3d-ae76-4c6df376233c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NIUI Library\Skeleton / Users">
+      <UniqueIdentifier>{64c54345-3e86-4d4d-83db-7877539552d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NIUI Library\Camera Input / Display">
+      <UniqueIdentifier>{ebcdb82d-336b-472f-b58a-11f4e976e399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NIUI Library\Camera Input / Display\Buffers">
+      <UniqueIdentifier>{0b5b381d-402f-4565-a273-d92c785fc338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NIUI Library\Camera Input / Display">
+      <UniqueIdentifier>{a6e9a691-28bd-4c7e-bd04-6768ca3eaded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NIUI Library\Camera Input / Display\Buffers">
+      <UniqueIdentifier>{109b492d-4628-4ff8-81a9-352c59d8d1cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NIUI Library\Utilities">
+      <UniqueIdentifier>{68477356-6b30-490c-bf09-91a0d8159570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NIUI Library\Utilities">
+      <UniqueIdentifier>{1f5a8ae4-bc96-474d-9625-a069b2741658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NIUI Library\Skeleton / Users">
+      <UniqueIdentifier>{7ebdbb23-a07c-463b-b715-f36ede91827c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NIUI Library\Camera Input / Display\Software Display">
+      <UniqueIdentifier>{e1107343-fcfb-419e-b1cf-d684f7a81dd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NIUI Library\Camera Input / Display\Software Display\Rendering">
+      <UniqueIdentifier>{99e3dcd4-aa97-4a56-9716-8fe34c119558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NIUI Library\Camera Input / Display\Software Display">
+      <UniqueIdentifier>{1ff8ad8b-0aa5-475e-ab57-007de3aa19ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NIUI Library\Camera Input / Display\Software Display\Rendering">
+      <UniqueIdentifier>{57975312-e549-46ee-949c-20d4e26bdf62}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Licenses and Readmes\LicenseTemplate.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Licenses and Readmes\Template.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="NIUIBaseBuffer.h">
+      <Filter>Header Files\NIUI Library\Camera Input / Display\Buffers</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NIUI Library Export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NIUI.h">
+      <Filter>Header Files\NIUI Library\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="NIUICore.h">
+      <Filter>Header Files\NIUI Library\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="NIUIConversion.h">
+      <Filter>Header Files\NIUI Library\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="NIUIDataTypes.h">
+      <Filter>Header Files\NIUI Library\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="NIUIUser.h">
+      <Filter>Header Files\NIUI Library\Skeleton / Users</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\NIUI Library\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files\NIUI Library\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="NIUIEventManager.h">
+      <Filter>Header Files\NIUI Library\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="NIUIReferenceRotationCacher.h">
+      <Filter>Header Files\NIUI Library\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="NIUIColor.h">
+      <Filter>Header Files\NIUI Library\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="NIUIUtil.h">
+      <Filter>Header Files\NIUI Library\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="NIUICameraInputManager.h">
+      <Filter>Header Files\NIUI Library\Camera Input / Display</Filter>
+    </ClInclude>
+    <ClInclude Include="NIUIImageBuffer.h">
+      <Filter>Header Files\NIUI Library\Camera Input / Display\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="NIUIUserColorMap.h">
+      <Filter>Header Files\NIUI Library\Camera Input / Display\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\BackBuffer.h">
+      <Filter>Header Files\NIUI Library\Camera Input / Display\Software Display\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Rasterizer.h">
+      <Filter>Header Files\NIUI Library\Camera Input / Display\Software Display\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\RenderData.h">
+      <Filter>Header Files\NIUI Library\Camera Input / Display\Software Display\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\RenderDevice.h">
+      <Filter>Header Files\NIUI Library\Camera Input / Display\Software Display\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Vertex.h">
+      <Filter>Header Files\NIUI Library\Camera Input / Display\Software Display\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="NIUIDepthBuffer.h">
+      <Filter>Header Files\NIUI Library\Camera Input / Display\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Window.h">
+      <Filter>Header Files\NIUI Library\Camera Input / Display\Software Display</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NIUI Library Export.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NIUICore.cpp">
+      <Filter>Source Files\NIUI Library\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="NIUIConversion.cpp">
+      <Filter>Source Files\NIUI Library\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="NIUIUser.cpp">
+      <Filter>Source Files\NIUI Library\Skeleton / Users</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\NIUI Library\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files\NIUI Library\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="NIUIEventManager.cpp">
+      <Filter>Source Files\NIUI Library\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="NIUIReferenceRotationCacher.cpp">
+      <Filter>Source Files\NIUI Library\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="NIUIUtil.cpp">
+      <Filter>Source Files\NIUI Library\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="NIUICameraInputManager.cpp">
+      <Filter>Source Files\NIUI Library\Camera Input / Display</Filter>
+    </ClCompile>
+    <ClCompile Include="NIUIDepthBuffer.cpp">
+      <Filter>Source Files\NIUI Library\Camera Input / Display\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="NIUIImageBuffer.cpp">
+      <Filter>Source Files\NIUI Library\Camera Input / Display\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="NIUIUserColorMap.cpp">
+      <Filter>Source Files\NIUI Library\Camera Input / Display\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Window.cpp">
+      <Filter>Source Files\NIUI Library\Camera Input / Display\Software Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Vertex.cpp">
+      <Filter>Source Files\NIUI Library\Camera Input / Display\Software Display\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\BackBuffer.cpp">
+      <Filter>Source Files\NIUI Library\Camera Input / Display\Software Display\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Rasterizer.cpp">
+      <Filter>Source Files\NIUI Library\Camera Input / Display\Software Display\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\RenderDevice.cpp">
+      <Filter>Source Files\NIUI Library\Camera Input / Display\Software Display\Rendering</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

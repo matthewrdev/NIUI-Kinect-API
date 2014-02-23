@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <UccPath>C:\UDK\UDK-2010-12\Binaries\Win32\UDK.exe</UccPath>
+    <UccUserPath />
+    <ReferenceSourcePath>C:\UDK\UDK-2010-12\Development\Src</ReferenceSourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <StartProgram>..\..\..\Binaries\Win32\UDK.exe</StartProgram>
+    <CmdArgs />
+    <LoadMapAtStartup>True</LoadMapAtStartup>
+    <StartupMap>NIUITestBed.udk</StartupMap>
+    <LoadGameType>True</LoadGameType>
+    <UserGameType>NIUI.NIUI_Main</UserGameType>
+    <NoSound>False</NoSound>
+    <NoStartupMovies>False</NoStartupMovies>
+    <UseUnpublished>True</UseUnpublished>
+    <ForceWindowedMode>True</ForceWindowedMode>
+    <WindowWidth>1280</WindowWidth>
+    <WindowHeight>960</WindowHeight>
+    <ShowLogWindow>True</ShowLogWindow>
+    <LogWindowX>0</LogWindowX>
+    <LogWindowY>0</LogWindowY>
+    <LogToFile>False</LogToFile>
+    <LogFile>C:\Users\MR\Desktop\UDK Debug.txt</LogFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <StartProgram>C:\UDK\UDK-2010-12\Binaries\Win32\UDK.exe</StartProgram>
+    <CmdArgs />
+    <LoadMapAtStartup>True</LoadMapAtStartup>
+    <StartupMap>TestBed</StartupMap>
+    <LoadGameType>True</LoadGameType>
+    <UserGameType>NIUI.NIUI_Main</UserGameType>
+    <NoSound>False</NoSound>
+    <NoStartupMovies>False</NoStartupMovies>
+    <UseUnpublished>True</UseUnpublished>
+    <ForceWindowedMode>False</ForceWindowedMode>
+    <WindowWidth>1024</WindowWidth>
+    <WindowHeight>768</WindowHeight>
+    <ShowLogWindow>True</ShowLogWindow>
+    <LogWindowX>0</LogWindowX>
+    <LogWindowY>0</LogWindowY>
+    <LogToFile>False</LogToFile>
+    <LogFile />
+  </PropertyGroup>
+</Project>

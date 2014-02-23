@@ -1,0 +1,29 @@
+----------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------
+
+Beta v1.0:
+- Added more thorough code commenting for UScript API
+- Reference Rotation Caching (.rrf files) to remove the need for T-Pose to be forced in game.
+- Updated documentation (See "Quick Start Guide", "Start Here...").
+- External Camera capture / feed preview window.
+- Added HUD to the sample project.
+
+----------------------------------------------------------------------------------------------
+
+(08/03/2011)
+Alpha V1.1:
+- Updated documentation (See "Start Here", "Quick Start Guide").
+- Fixed file reference issue within the dll
+- Added quick start guide.
+- Removed redundant functions.
+- Revised setup instruction's
+- Added a simplified installer process for all the requirements (NITE, OpenNI, SensorKinect).
+
+----------------------------------------------------------------------------------------------
+
+(28/02/2011)
+Alpha V1.0: 
+- Initial Release.
+
+----------------------------------------------------------------------------------------------

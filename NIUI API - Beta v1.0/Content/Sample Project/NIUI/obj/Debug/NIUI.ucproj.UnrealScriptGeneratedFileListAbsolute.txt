@@ -1,0 +1,14 @@
+C:\UDK\UDK-2010-12\UDKGame\Script\Core.u
+C:\UDK\UDK-2010-12\UDKGame\Script\Engine.u
+C:\UDK\UDK-2010-12\UDKGame\Script\GFxUI.u
+C:\UDK\UDK-2010-12\UDKGame\Script\GameFramework.u
+C:\UDK\UDK-2010-12\UDKGame\Script\UnrealEd.u
+C:\UDK\UDK-2010-12\UDKGame\Script\GFxUIEditor.u
+C:\UDK\UDK-2010-12\UDKGame\Script\IpDrv.u
+C:\UDK\UDK-2010-12\UDKGame\Script\OnlineSubsystemPC.u
+C:\UDK\UDK-2010-12\UDKGame\Script\OnlineSubsystemSteamworks.u
+C:\UDK\UDK-2010-12\UDKGame\Script\UDKBase.u
+C:\UDK\UDK-2010-12\UDKGame\Script\UTEditor.u
+C:\UDK\UDK-2010-12\UDKGame\Script\UTGame.u
+C:\UDK\UDK-2010-12\UDKGame\Script\UTGameContent.u
+C:\UDK\UDK-2010-12\UDKGame\Script\NIUI.u
